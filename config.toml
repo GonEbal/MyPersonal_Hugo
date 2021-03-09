@@ -7,7 +7,7 @@ title = "Dzianis Samokhin"
 
 ## Profile Configurations
 [params.profile]
-  portrait = "/images/portrait-default.png"
+  portrait = "/images/main.jpg"
   firstname = "Dzianis ( Denis )"
   lastname = "Samokhin"
   title = "Software Engineer / Web Developer"
@@ -16,15 +16,20 @@ title = "Dzianis Samokhin"
 
 ## Contacts Configurations
 [params.contacts]
-  email = "denis1882531@example.com"
+  email = "denis1882531@gmail.com"
   github = "GonEbal"
   linkedin = "denis-samokhin"
   instagram = "samokhin_official"
   stackoverflow = "14852241"
 
 
+## Actions Configurations
+[params.actions]
+  name = "Check"
+  url = "https://en.wikipedia.org/wiki/Virtual_reality"
+
+
 ## Footer Configurations
 [params.footer]
-  copyright = "© 2021 Dzianis Samokhin. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
-  poweredBy = true
+  copyright = "© 2021 Dzianis Samokhin. [GitHub](https://github.com/GonEbal)."
 
