@@ -25,6 +25,6 @@ title = "Dzianis Samokhin"
 
 ## Footer Configurations
 [params.footer]
-  copyright = "© 2021 DZIANIS SAMOKHIN.
-  poweredBy = false
+  copyright = "© 2021 Dzianis Samokhin. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  poweredBy = true
 
