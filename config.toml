@@ -1,6 +1,6 @@
 languageCode = "en-us"
 
-theme = "awesome-identity"
+theme = "myTheme"
 baseURL = "https://condescending-torvalds-7033e4.netlify.app/"
 title = "Dzianis Samokhin"
 
