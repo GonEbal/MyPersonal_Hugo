@@ -1,0 +1,10 @@
+{{ with .Site.Params.footer -}}
+<footer class="footer">
+  {{ with .copyright -}}
+  <p class="copyright">{{ . | markdownify }}</p>
+  {{- end }}
+  {{ if or ( not ( isset . "poweredby" ) ) ( .poweredby ) -}}
+  
+  {{- end }}
+</footer>
+{{- end }}
