@@ -11,7 +11,7 @@ title = "Dzianis Samokhin"
   firstname = "Dzianis ( Denis )"
   lastname = "Samokhin"
   title = "Software Engineer / Web Developer"
-  bio = """Dzianis Samokhin brings over 40 years experience leading, contributing to, and growing engineering organizations in top [**VR**](https://en.wikipedia.org/wiki/Virtual_reality) technology companies.
+  bio = """Dzianis Samokhin
   """
 
 ## Contacts Configurations
@@ -25,7 +25,7 @@ title = "Dzianis Samokhin"
 
 ## Actions Configurations
 [params.actions]
-  name = "Check"
+  name = "Review My CV"
   url = "https://en.wikipedia.org/wiki/Virtual_reality"
 
 
