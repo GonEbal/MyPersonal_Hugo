@@ -1757,7 +1757,7 @@
     /* Type */
 
     body {
-        background-color: #fff;
+        background-color: #EEEEEE;
         color: #777;
     }
 
@@ -3844,12 +3844,42 @@
         }
 
     }
+
+    .backarea {
+        margin: 2.2rem 2.2rem;
+        font-size: 1.2rem;
+    }
+
+    .backarea .back {
+    	text-decoration: none;
+        display: inline-block;
+        width: 3.2em;
+        height: 2.3em;
+        line-height: 2.2em;
+        margin-left: 0.1em;
+        margin-right: 0.1em;
+        background: rgba(199, 199, 199, 0.45);
+        color: #535358;
+        text-align: center;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .backarea .back:hover {
+        background: #d17b88;
+        color: #fff;
+        box-shadow: 0 0 1px 7px rgba(182, 38, 44, 0.15);
+    }
     </style>
     <meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <body class="landing">
+    <section class="backarea">
+        <a class="back" href="/">Back</a>
+    </section>
     <section id="one" class="wrapper style1">
         <div class="inner">
             <article class="feature left">
