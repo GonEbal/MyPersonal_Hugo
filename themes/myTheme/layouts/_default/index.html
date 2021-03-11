@@ -35,6 +35,13 @@
 {{ partial "profile.html" . }}
 {{ partial "contacts.html" . }}
 {{ partial "actions.html" . }}
+<section class="actions">
+<ul>
+  {{ range .Pages }}
+    <li><a class="action" href="{{ .Permalink }}">My {{ .Title }}</a></li>
+  {{ end }}
+</ul>
+</section>
     </div>
 {{ partial "footer.html" . }}
 {{ template "_internal/google_analytics_async.html" . }}
