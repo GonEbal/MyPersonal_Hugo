@@ -2420,9 +2420,41 @@
         width: 50%;
     }
 
+    /* Gif/Video */
+    .gif video {
+        border-radius: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .gif video  {
+        border-radius: 0;
+        display: block;
+        width: 50%;
+    }
+
+    .gif.left video,
+    .gif.right video {
+        width: 50%;
+    }
+
+    .gif.fit video {
+        width: 50%;
+    }
+
+    .gif.main video {
+        width: 50%;
+    }
+
     /* Image */
 
     .image {
+        border-radius: 0;
+        border: 0;
+        display: inline-block;
+        position: relative;
+    }
+    .gif {
         border-radius: 0;
         border: 0;
         display: inline-block;
@@ -2446,6 +2478,11 @@
         max-width: 40%;
     }
 
+    .gif.left,
+    .gif.right {
+        max-width: 40%;
+    }
+
     .image.left img,
     .image.right img {
         width: 50%;
@@ -2456,8 +2493,18 @@
         padding: 0 1.5em 1em 0;
         top: 0.25em;
     }
+    .gif.left {
+        float: left;
+        padding: 0 1.5em 1em 0;
+        top: 0.25em;
+    }
 
     .image.right {
+        float: right;
+        padding: 0 0 1em 1.5em;
+        top: 0.25em;
+    }
+    .gif.right {
         float: right;
         padding: 0 0 1em 1.5em;
         top: 0.25em;
@@ -2468,12 +2515,22 @@
         margin: 0 0 2em 0;
         width: 50%;
     }
+    .gif.fit {
+        display: block;
+        margin: 0 0 2em 0;
+        width: 50%;
+    }
 
     .image.fit img {
         width: 50%;
     }
 
     .image.main {
+        display: block;
+        margin: 0 0 3em 0;
+        width: 50%;
+    }
+    .gif.main {
         display: block;
         margin: 0 0 3em 0;
         width: 50%;
@@ -2986,12 +3043,24 @@
     .feature .image {
         width: 48%;
     }
+    .feature .gif {
+        width: 48%;
+    }
 
     .feature .image img {
         max-width: 100%;
     }
+    .feature .gif img {
+        max-width: 100%;
+    }
 
     .feature .image video {
+        max-width: 100%;
+    }
+    .feature .gif video {
+        max-width: 100%;
+    }
+    .feature .gif video {
         max-width: 100%;
     }
 
@@ -3025,12 +3094,21 @@
         .feature .image {
             width: 100%;
         }
+        .feature .gif {
+            width: 100%;
+        }
 
         .feature .image img {
             width: 100%;
         }
+        .feature .gif img {
+            width: 100%;
+        }
 
         .feature .image video {
+            width: 100%;
+        }
+        .feature .gif video {
             width: 100%;
         }
 
@@ -3075,14 +3153,26 @@
         margin: 0;
         width: 25%;
     }
+    .image-grid .gif {
+        margin: 0;
+        width: 25%;
+    }
 
     .image-grid .image img {
+        width: 100%;
+    }
+
+    .image-grid .gif img {
         width: 100%;
     }
 
     .image-grid .image video {
         width: 100%;
     }
+    .image-grid .gif video {
+        width: 100%;
+    }
+
 
     @media screen and (max-width: 980px) {
 
@@ -3091,6 +3181,9 @@
         }
 
         .image-grid .image {
+            width: 50%;
+        }
+        .image-grid .gif {
             width: 50%;
         }
 
@@ -3103,6 +3196,12 @@
         }
 
         .image-grid .image {
+            width: 100%;
+        }
+        .image-grid .gif {
+            width: 100%;
+        }
+        .image-grid .gif {
             width: 100%;
         }
 
@@ -3949,7 +4048,11 @@
             </article>
              <article class="feature right">
                 <span class="gif">
-                        <img src="https://media.giphy.com/media/TKRfX6X80Gu5PmyZ7V/giphy.gif" alt="">
+                    <video autoplay="true" loop muted playsinline>
+                        <source src="/images/preview_fitness.webm" type="video/webm">
+                        <source src="/images/preview_fitness.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </span>
                 <div class="content">
                     <h2>MyFitness App</h2>
@@ -3998,7 +4101,13 @@
                 </div>
             </article>
             <article class="feature right">
-                <span class="gif"><img src="https://media.giphy.com/media/IZ2iCYNuEFKrISqL7m/giphy.gif" alt="" /></span>
+                <span class="gif">
+                    <video autoplay="true" loop muted playsinline>
+                        <source src="/images/flashcards.webm" type="video/webm">
+                        <source src="/images/flashcards.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </span>
                 <div class="content">
                     <h2>React-Native Flashcards</h2>
                     <p>React-Native, React-Redux, AJAX, API</p>
