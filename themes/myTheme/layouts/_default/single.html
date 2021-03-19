@@ -2392,6 +2392,33 @@
         display: none;
     }
 
+    /* Video */
+
+    .image video {
+        border-radius: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .gif video  {
+        border-radius: 0;
+        display: block;
+        width: 50%;
+    }
+
+    .image.left video,
+    .image.right video {
+        width: 50%;
+    }
+
+    .image.fit video {
+        width: 50%;
+    }
+
+    .image.main video {
+        width: 50%;
+    }
+
     /* Image */
 
     .image {
@@ -3901,8 +3928,26 @@
                     </ul>
                 </div>
             </article>
-            <article class="feature right">
-                <span class="gif"><img src="https://media.giphy.com/media/TKRfX6X80Gu5PmyZ7V/giphy.gif" alt="" /></span>
+            <!-- <article class="feature right">
+                <span class="gif">
+                    <video autoplay="true">
+                        <source src="/images/myFitness.webm" type="video/webm">
+                    </video>
+                </span>
+                <div class="content">
+                    <h2>MyFitness App</h2>
+                    <p>React-Native, React-Redux, AJAX, API</p>
+                    <ul class="actions">
+                        <li>
+                            <a href="https://github.com/GonEbal/MyFitness" class="button alt">View GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </article> -->
+             <article class="feature right">
+                <span class="gif">
+                        <img src="https://media.giphy.com/media/TKRfX6X80Gu5PmyZ7V/giphy.gif" alt="">
+                </span>
                 <div class="content">
                     <h2>MyFitness App</h2>
                     <p>React-Native, React-Redux, AJAX, API</p>
@@ -3961,7 +4006,7 @@
                     </ul>
                 </div>
             </article>
-            <article class="feature right">
+            <!-- <article class="feature right">
                 <span class="image"><img src="/images/preview_twitter.gif" alt="" /></span>
                 <div class="content">
                     <h2>Fake Twitter</h2>
@@ -3972,7 +4017,7 @@
                         </li>
                     </ul>
                 </div>
-            </article>
+            </article> -->
         </div>
     </section>
 </body>
