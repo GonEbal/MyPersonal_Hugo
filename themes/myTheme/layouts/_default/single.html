@@ -36,6 +36,7 @@
     dfn,
     em,
     img,
+    video,
     ins,
     kbd,
     q,
@@ -2990,6 +2991,10 @@
         max-width: 100%;
     }
 
+    .feature .image video {
+        max-width: 100%;
+    }
+
     .feature .content {
         padding: 2em 3em 0.1em 3em;
         width: 52%;
@@ -3022,6 +3027,10 @@
         }
 
         .feature .image img {
+            width: 100%;
+        }
+
+        .feature .image video {
             width: 100%;
         }
 
@@ -3068,6 +3077,10 @@
     }
 
     .image-grid .image img {
+        width: 100%;
+    }
+
+    .image-grid .image video {
         width: 100%;
     }
 
@@ -3917,7 +3930,13 @@
     <section id="one" class="wrapper style1">
         <div class="inner">
             <article class="feature left">
-                <span class="image"><img src="/images/preview_wur.gif" alt="" /></span>
+                <span class="image">
+                    <video autoplay="true" loop muted playsinline>
+                        <source src="/images/preview_wur.webm" type="video/webm">
+                        <source src="/images/preview_wur.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </span>
                 <div class="content">
                     <h2>Would you rather game</h2>
                     <p>React, React-Redux, AJAX, API</p>
@@ -3928,22 +3947,6 @@
                     </ul>
                 </div>
             </article>
-            <!-- <article class="feature right">
-                <span class="gif">
-                    <video autoplay="true">
-                        <source src="/images/myFitness.webm" type="video/webm">
-                    </video>
-                </span>
-                <div class="content">
-                    <h2>MyFitness App</h2>
-                    <p>React-Native, React-Redux, AJAX, API</p>
-                    <ul class="actions">
-                        <li>
-                            <a href="https://github.com/GonEbal/MyFitness" class="button alt">View GitHub</a>
-                        </li>
-                    </ul>
-                </div>
-            </article> -->
              <article class="feature right">
                 <span class="gif">
                         <img src="https://media.giphy.com/media/TKRfX6X80Gu5PmyZ7V/giphy.gif" alt="">
@@ -3959,7 +3962,13 @@
                 </div>
             </article>
             <article class="feature right">
-                <span class="image"><img src="/images/preview_chirper2.gif" alt="" /></span>
+                <span class="image">
+                    <video autoplay="true" loop muted playsinline>
+                        <source src="/images/preview_chirper2.webm" type="video/webm">
+                        <source src="/images/preview_chirper2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </span>
                 <div class="content">
                     <h2>React Chirper App</h2>
                     <p>React, React-Redux, AJAX, JavaScript, API</p>
@@ -3971,7 +3980,13 @@
                 </div>
             </article>
             <article class="feature left">
-                <span class="image"><img src="/images/preview_devmo.gif" alt="" /></span>
+                <span class="image">
+                    <video autoplay="true" loop muted playsinline>
+                        <source src="/images/preview_devmo.webm" type="video/webm">
+                        <source src="/images/preview_devmo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </span>
                 <div class="content">
                     <h2>DevMo - Dribbble for Developers</h2>
                     <p>Django, JavaScript, MySQL, Heroku, Python</p>
@@ -3995,7 +4010,13 @@
                 </div>
             </article>
             <article class="feature left">
-                <span class="image"><img src="/images/preview_myreads.gif" alt="" /></span>
+                <span class="image">
+                    <video autoplay="true" loop muted playsinline>
+                        <source src="/images/preview_myreads.webm" type="video/webm">
+                        <source src="/images/preview_myreads.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </span>
                 <div class="content">
                     <h2>MyReads</h2>
                     <p>React, React-Redux, AJAX, JavaScript, API</p>
@@ -4006,8 +4027,14 @@
                     </ul>
                 </div>
             </article>
-            <!-- <article class="feature right">
-                <span class="image"><img src="/images/preview_twitter.gif" alt="" /></span>
+            <article class="feature right">
+                <span class="image">
+                    <video autoplay="true" loop muted playsinline>
+                        <source src="/images/preview_twitter.webm" type="video/webm">
+                        <source src="/images/preview_twitter.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </span>
                 <div class="content">
                     <h2>Fake Twitter</h2>
                     <p>Django, JavaScript, MySQL, Heroku, Python</p>
@@ -4017,7 +4044,7 @@
                         </li>
                     </ul>
                 </div>
-            </article> -->
+            </article>
         </div>
     </section>
 </body>
