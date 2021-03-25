@@ -11,7 +11,11 @@ title = "Dzianis Samokhin"
   firstname = "Dzianis ( Denis )"
   lastname = "Samokhin"
   title = "Software Engineer / Web Developer"
-  bio = """Dzianis Samokhin
+  bio = """Hi, I'm Denis, a Full Stack Web Developer and lifelong learner with a passion for collaboration and teamwork.
+
+My journey into Web Development started when I needed a website for my Business in 2016. I was selling VR headsets at that time. I just googled "How to build a Website"...I also googled "How to build a multimillion-dollar empire"... And I did first, and almost the second. I became fascinated with the power of coding. I'm pursuing my passion ever since!
+
+Skills/Interests: JavaScript, React, Redux, Node.js, Django, Flask, SQL, UX/UI, CSS, SASS, HTML5, multimillion-dollar empire.
   """
 
 ## Contacts Configurations
