@@ -4,8 +4,6 @@
 {{- end }}
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ .Permalink }}" />
-{{ with .Site.Params.meta.images }}
-  {{- range first 6 . -}}
- <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/51117815388_f7d2a08346_k.jpg" />
-  {{- end -}}
+
+<meta name="image" property="og:image" content="https://live.staticflickr.com/65535/51117815388_f7d2a08346_k.jpg" />
 {{- end }}
