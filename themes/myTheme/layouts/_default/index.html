@@ -6,13 +6,13 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-{{ partial "opengraph.html" . }}
-{{ with .Site.Params.meta.description }}
-    <meta name="description" content="{{ . }}" />
-{{ end }}
-{{ with .Site.Params.meta.keywords }}
-    <meta name="keywords" content="{{ . }}" />
-{{ end }}
+    <meta name="description" content="_" />
+    <meta name="title" property="og:title" content="_" />
+    <meta property="og:type" content="_" />
+    <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/51117815388_f7d2a08346_k.jpg" />
+    <meta name="description" property="og:description" content="_" />
+    <meta name="author" content="_" />
+
     <base href="{{ .Site.BaseURL }}">
     <title>{{ .Site.Title }}</title>
 
